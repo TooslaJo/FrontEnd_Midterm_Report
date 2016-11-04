@@ -1,0 +1,133 @@
+/*頁面總寬：1280px 將寬度1280切割成12欄 欄寬：66px 間隙：36px 留白：46px*/
+/*模擬玉軒的Grid System*/
+body {
+  max-width:1280px;
+  padding:0px 46px 0px 46px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:gold;
+}
+
+#isolation{
+  max-width:1188px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+ /*header*/
+.title{
+    float:left;
+    width:368px;
+    height:100px;
+    margin:46px 510px 30px 0px;
+    border:solid 2px yellow;
+    border-radius:2px;
+}
+
+h1{
+    text-align:center;
+}
+
+.icon{
+    width:64px;
+    height:64px;
+    float:right;
+    margin:60px 0px 30px 36px;            /*margin-top不確定多少*/
+    border:solid 1px black;
+    border-radius:3px;
+}
+
+ /*nav*/
+nav{
+    margin-bottom:40px;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding:10px 0px 10px 0px;
+}
+
+nav div{
+    width:160px;
+    display: inline-block;
+    margin: 5px 36px 5px 0px;
+    border: solid 2px black;
+    border-radius:2px;
+}
+
+#margin_r{
+    width:160px;
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+    border: solid 2px black;
+    border-radius:2px;
+}
+
+nav div p{
+  text-align:center;
+}
+
+ /*article*/
+.latest_qa{
+    width:980px;
+    height:260px;
+    margin:0px 102px 30px 102px;
+    border:solid 2px black;
+    border-radius:2px;
+}
+
+.latest_v{
+    width:572px;
+    height:572px;
+    float:left;
+    margin:0px 30px 30px 102px;
+    border:solid 2px black;
+    border-radius:2px;
+}
+
+.news{
+    width:368px;
+    height:368px;
+    float:right;
+    margin:0px 102px 20px 0px;
+    border:solid 2px black;
+    border-radius:2px;
+}
+
+.download{
+  width:368px;
+  height:180px;
+  float:right;
+  margin-right:102px;
+  border:solid 2px black;
+  border-radius:2px;
+}
+
+.clear{
+    clear:both;
+}
+
+.diary{
+    width:470px;
+    height:376px;
+    float:left;
+    margin:0px 36px 30px 102px;
+    border:solid 2px black;
+    border-radius:2px;
+}
+
+.events{
+    width:470px;
+    height:376px;
+    float:right;
+    margin-bottom:30px;
+    margin:0px 102px 30px auto;
+    border:solid 2px black;
+    border-radius:2px;
+}
+
+ /*footer*/
+footer{
+    width:1184px;
+    height:500px;
+    border:dashed 2px black;
+}
