@@ -70,6 +70,12 @@ nav div{
     border-radius:2px;
 }
 
+#margin_r:hover{
+    border:outset 2px yellow;
+    text-shadow: gray 1px 1px 1px;
+    background-color:yellow;
+}
+
 nav div p{
     text-align:center;
     font-size: 22px;
@@ -77,9 +83,11 @@ nav div p{
 }
 
 nav div:hover{
+  border:outset 2px yellow;
   text-shadow: gray 1px 1px 1px;
-  background-color:#FF7256;
+  background-color:yellow;
 }
+
 
  /*article*/
 .latest_qa{
