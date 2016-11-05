@@ -1,0 +1,107 @@
+@media screen and(max-width:768px){
+  nav div{
+    width:33%;
+  }
+}
+
+/*頁面總寬：1280px 將寬度1280切割成12欄 欄寬：66px 間隙：36px 留白：46px*/
+/*模擬良聖的Grid System*/
+body {
+  max-width:1280px;
+  padding:0px 46px 0px 46px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#FFF68F;
+}
+#isolation{
+  width:1188px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/*分頁只有導覽列nav(除了favicon)會有超連結*/
+a{
+  text-decoration: none;
+}
+
+/*header*/
+header{
+  width:1188px;
+  height:200px;
+  border-bottom:solid 2px black;
+}
+
+/*nav*/
+nav{
+  width: 264px;
+  float: left;
+  padding: 36px;
+  border-right: dotted 1px gray;
+}
+#favicon{
+    width: 192px;
+    height: 192px;
+    display: block;
+    margin: 36px 72px 30px 36px;
+    border: solid 3px black;
+    background-color: white;
+}
+nav div{
+    width:264px;
+    display: block;
+    margin: 5px 36px 10px 0px;
+    border: solid 3px black;
+    border-radius:4px;
+    background-color:yellow;
+    text-align:center;
+    font-size: 30px;
+    font-family: OCR A Std,Consolas,sans-serif;
+}
+nav div:hover{
+  border:outset 3px yellow;
+  text-shadow: gray 1px 1px 1px;
+  background-color:yellow;
+  transition: all 0.2s ease;
+}
+
+
+/*article*/
+article{
+  width: 60%;
+  float: right;
+}
+.subtitle{
+  max-width: 812px;
+  margin:46px 0px 30px 0px;
+  border:solid 2px black;
+  border-radius:2px;
+  background-color:yellow;
+  font-weight: bold;
+  text-align:center;
+  font-size: 36px;
+  font-family: OCR A Std,Consolas,sans-serif;
+}
+.content{
+  max-width: 812px;
+  height:1200px;
+  margin:46px 0px 30px 0px;
+  border:solid 2px black;
+  border-radius:2px;
+  background-color:yellow;
+  text-align:center;
+  font-size: 36px;
+  font-family: OCR A Std,Consolas,sans-serif;
+  border-radius:2px;
+}
+
+/*clear float用*/
+.clear{
+    clear:both;
+}
+
+/*footer*/
+footer{
+    width:1184px;
+    height:300px;
+    border:dashed 2px black;
+}
