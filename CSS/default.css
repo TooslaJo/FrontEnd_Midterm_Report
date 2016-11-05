@@ -12,7 +12,9 @@ body {
   padding:0px 46px 0px 46px;
   margin-left:auto;
   margin-right:auto;
-  background-color:gold;
+  background-image:url(../images/bg4.jpg);
+  background-size: cover;
+  background-color:#FFF68F;
 }
 
 #isolation{
@@ -24,12 +26,12 @@ body {
 
  /*header*/
 .title{
-    float:left;
-    width:368px;
-    height:100px;
-    margin:46px 510px 30px 0px;
-    border:solid 2px yellow;
-    border-radius:2px;
+   float:left;
+    width:371px;
+    height:115px;
+    margin:36px 510px 20px 0px;
+    /*border:solid 2px yellow;*/  /*用不到*/
+    border-radius:4px;
 }
 
 h1{
@@ -37,39 +39,57 @@ h1{
 }
 
 .icon{
-    width:64px;
-    height:64px;
+    width:48px;
+    height:48px;
     float:right;
-    margin:60px 0px 30px 36px;            /*margin-top不確定多少*/
-    border:solid 1px black;
+    margin:110px 0px 0px 14px;            /*margin-top不確定多少*/
+    /*border:solid 1px black;*/           /*用不到*/
     border-radius:3px;
 }
 
  /*nav*/
 nav{
     margin-bottom:40px;
-    border-top:solid 2px black;
-    border-bottom:solid 2px black;
-    padding:10px 5px 10px 5px;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding:26px 0px 26px 0px;
 }
 nav div{
-    width:157px;
+    max-height: 70px;
+    max-width: 168px;
+    width:168px;
     display: inline-block;
-    margin: 5px 36px 5px 0px;
+    margin: 5px 27px 5px 0px;
     border: solid 2px black;
     border-radius:2px;
     background-color:yellow;
+}
+
+nav div p{
     text-align:center;
-    font-size: 22px;
-    font-family: Consolas,sans-serif;
+    margin: 0px;
+    padding-top:21px;
+    padding-bottom:21px;
+    font-size: 28px;
+    font-family: OCR A Std,Consolas,sans-serif;
 }
+
 nav div:hover{
-  border:outset 2px yellow;
   text-shadow: gray 1px 1px 1px;
-  background-color:yellow;
+  background-color:#FF7256;
+  transition: all 0.2s ease;
 }
+
+nav a
+{
+  text-decoration: none;
+  color: black;
+}
+
 #margin_r{
-    width:157px;
+   max-height: 70px;
+    max-width: 168px;
+    width:168px;
     display: inline-block;
     margin: 5px 0px 5px 0px;
     border: solid 2px black;
@@ -108,30 +128,119 @@ nav div:hover{
 }
 
 .latest_v{
-    width:572px;
-    height:572px;
+    width:576px;
+    height:576px;
     float:left;
     margin:0px 30px 30px 102px;
     border:solid 2px black;
     border-radius:2px;
 }
 
+.latest_video_upper{
+  width: 576px;
+  height: 86px;
+  margin: 0px;
+  background-color: #F7AF9D;
+}
+
+.latest_video_upper>p{
+  margin: 0px;
+  padding-left: 66px;
+  padding-top: 30px;
+  padding-right: 0px;
+  font-size: 30px;
+  font-family: OCR A Std,Consolas,sans-serif;
+}
+
+.latest_video_downer{
+  width: 576px;
+  height: 91px;
+  margin: 0px;
+  margin-top:-4px;
+  background-color: #F7AF9D;
+}
+
+.latest_video_downer>a>p{
+  margin: 0px;
+  float: right;
+  margin-right: 38px;
+  margin-top: 38px;
+  font-size: 20px;
+  font-family: OCR A Std,Consolas,sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
 .news{
-    width:368px;
-    height:368px;
+    width:370px;
+    height:370px;
     float:right;
     margin:0px 102px 20px 0px;
     border:solid 2px black;
     border-radius:2px;
 }
 
+.news_upper{
+  width: 370px;
+  height: 86px;
+  margin: 0px;
+  background-color: #7FB069;
+}
+
+.news_upper>p{
+  margin: 0px;
+  padding-left: 66px;
+  padding-top: 30px;
+  padding-right: 306px;
+  font-size: 30px;
+  font-family: OCR A Std,Consolas,sans-serif;
+}
+
+.news_middle{
+  width: 370px;
+  height: 193px;
+  margin: 0px;
+
+}
+
+.news_downer{
+  width: 370px;
+  height: 91px;
+  margin: 0px;
+  margin-top:0px;
+  background-color: #7FB069;
+}
+
+.news_downer>a>p{
+  margin: 0px;
+  float: right;
+  margin-right: 38px;
+  margin-top: 38px;
+  font-size: 20px;
+  font-family: OCR A Std,Consolas,sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
 .download{
-  width:368px;
-  height:180px;
+ width:370px;
+  height:182px;
   float:right;
   margin-right:102px;
   border:solid 2px black;
   border-radius:2px;
+  background-color: #B0D0D3;
+}
+
+.download>p{
+  text-align:center;
+  margin: 0px;
+  padding-top: 62px;
+  padding-bottom: 62px;
+  font-size: 56px;
+  font-family: OCR A Std,Consolas,sans-serif;
+  text-decoration: none;
+  color: black;
 }
 
 .clear{
@@ -139,17 +248,58 @@ nav div:hover{
 }
 
 .diary{
-    width:470px;
-    height:376px;
-    float:left;
-    margin:0px 36px 30px 102px;
-    border:solid 2px black;
-    border-radius:2px;
+  width:470px;
+  height:402px;
+  float:left;
+  margin:0px 36px 30px 102px;
+  border:solid 2px black;
+  border-radius:2px;
+}
+
+.diary_upper{
+  width: 470px;
+  height: 86px;
+  margin: 0px;
+  background-color: #DD6E42;
+}
+
+.diary_upper>p{
+  margin: 0px;
+  padding-left: 66px;
+  padding-top: 30px;
+  padding-right: 306px;
+  font-size: 30px;
+  font-family: OCR A Std,Consolas,sans-serif;
+}
+
+.diary_middle{
+  width: 470px;
+  height: 225px;
+  margin: 0px;
+}
+
+.diary_downer{
+  width: 470px;
+  height: 91px;
+  margin: 0px;
+  margin-top:0px;
+  background-color: #DD6E42;
+}
+
+.diary_downer>a>p{
+  margin: 0px;
+  float: right;
+  margin-right: 38px;
+  margin-top: 38px;
+  font-size: 20px;
+  font-family: OCR A Std,Consolas,sans-serif;
+  text-decoration: none;
+  color: black;
 }
 
 .events{
     width:470px;
-    height:376px;
+    height:402px;
     float:right;
     margin-bottom:30px;
     margin:0px 102px 30px auto;
@@ -157,9 +307,59 @@ nav div:hover{
     border-radius:2px;
 }
 
+.events_upper{
+  width: 470px;
+  height: 86px;
+  margin: 0px;
+  background-color: #8F857D;
+}
+
+.events_upper>p{
+  margin: 0px;
+  padding-left: 66px;
+  padding-top: 30px;
+  padding-right: 306px;
+  font-size: 30px;
+  font-family: OCR A Std,Consolas,sans-serif;
+}
+
+.events_middle{
+  width: 470px;
+  height: 225px;
+  margin: 0px;
+}
+
+.events_downer{
+  width: 470px;
+  height: 91px;
+  margin: 0px;
+  margin-top:0px;
+  background-color: #8F857D;
+}
+
+.events_downer>a>p{
+  margin: 0px;
+  float: right;
+  margin-right: 38px;
+  margin-top: 38px;
+  font-size: 20px;
+  font-family: OCR A Std,Consolas,sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
  /*footer*/
 footer{
-    width:1184px;
-    height:500px;
-    border:dashed 2px black;
+   width:100%;
+    height:82px;
+    background-color: yellow;
+}
+
+footer>p{
+  text-align:center;
+  margin: 0px;
+  padding-top:33px;
+  padding-bottom:33px;
+  font-size: 16px;
+  font-family:Consolas,sans-serif;
 }
