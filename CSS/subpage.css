@@ -20,8 +20,9 @@ body {
 }
 
 /*分頁只有導覽列nav(除了favicon)會有超連結*/
-a{
+nav a{
   text-decoration: none;
+  color: black;
 }
 
 /*header*/
@@ -36,7 +37,7 @@ nav{
   width: 264px;
   float: left;
   padding: 36px;
-  border-right: dotted 1px gray;
+  border-right: dotted 4px gray;
 }
 #favicon{
     width: 192px;
@@ -53,10 +54,16 @@ nav div{
     border: solid 3px black;
     border-radius:4px;
     background-color:yellow;
-    text-align:center;
+}
+nav div p{
+    text-align: center;
+    margin: 0px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     font-size: 30px;
     font-family: OCR A Std,Consolas,sans-serif;
 }
+
 nav div:hover{
   border:outset 3px yellow;
   text-shadow: gray 1px 1px 1px;
@@ -77,9 +84,10 @@ article{
   border-radius:2px;
   background-color:yellow;
   font-weight: bold;
-  text-align:center;
   font-size: 36px;
   font-family: OCR A Std,Consolas,sans-serif;
+  text-align:center;
+  text-shadow: gray 1px 1px 1px;
 }
 .content{
   max-width: 812px;
@@ -102,6 +110,6 @@ article{
 /*footer*/
 footer{
     width:1184px;
-    height:300px;
+    height:150px;
     border:dashed 2px black;
 }
