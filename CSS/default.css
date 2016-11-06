@@ -17,18 +17,20 @@ body {
   background-color:#FFF68F;
 }
 
+
+
+
 #isolation{
   max-width:1188px;
   margin-left:auto;
   margin-right:auto;
 }
 
-/*主頁超連結的有導覽列nav&download....等(下面主視覺是要刪除的不要理)*/
 a{ text-decoration: none; }
 
  /*header*/
 .title{
-   float:left;
+    float:left;
     width:371px;
     height:115px;
     margin:36px 510px 20px 0px;
@@ -56,6 +58,7 @@ nav{
     border-bottom:solid 1px black;
     padding:26px 0px 26px 0px;
 }
+
 nav div{
     max-height: 70px;
     max-width: 168px;
@@ -65,6 +68,16 @@ nav div{
     border: solid 2px black;
     border-radius:2px;
     background-color:yellow;
+}
+
+#margin_r{
+    max-height: 70px;
+    max-width: 168px;
+    width:168px;
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+    border: solid 2px black;
+    border-radius:2px;
 }
 
 nav div p{
@@ -77,44 +90,26 @@ nav div p{
 }
 
 nav div:hover{
-   border:outset 2px yellow;
-   text-shadow: gray 1px 1px 1px;
-   background-color:yellow;
-   transition: all 0.2s ease;
+  text-shadow: gray 1px 1px 1px;
+  background-color:#FF7256;
+  transition: all 0.2s ease;
 }
-
 nav a
 {
   text-decoration: none;
   color: black;
 }
 
-#margin_r{
-   max-height: 70px;
-    max-width: 168px;
-    width:168px;
-    display: inline-block;
-    margin: 5px 0px 5px 0px;
-    border: solid 2px black;
-    border-radius:2px;
-}
-#margin_r:hover{
-    border:outset 2px yellow;
-    text-shadow: gray 1px 1px 1px;
-    background-color:yellow;
-    transition: all 0.2s ease;
-}
-
  /*article*/
 .latest_qa{
     width:980px;
-    height:260px;
+    height:208px;
     margin:0px 102px 30px 102px;
     border:solid 2px black;
     border-radius:2px;
 }
 
-.latest_qa_li{
+/*.latest_qa_li{
     width:260px;
     height:66px;
     position:absolute;
@@ -129,7 +124,7 @@ nav a
   text-align:center;
   font-size: 20px;
   font-family: Consolas,sans-serif;
-}
+}*/
 
 .latest_v{
     width:576px;
@@ -204,7 +199,17 @@ nav a
   width: 370px;
   height: 193px;
   margin: 0px;
-
+  background-color:#FFF69F;
+  overflow: scroll;
+}
+.news_middle>ul{
+  font-size:24px;
+  line-height: 48px;
+  font-family: Consolas,sans-serif;
+}
+.news_middle>ul>li>a{
+  text-decoration: none;
+  color: brown;
 }
 
 .news_downer{
@@ -227,7 +232,7 @@ nav a
 }
 
 .download{
- width:370px;
+  width:370px;
   height:182px;
   float:right;
   margin-right:102px;
@@ -280,6 +285,8 @@ nav a
   width: 470px;
   height: 225px;
   margin: 0px;
+  background-color:#FFF69F;
+  overflow: scroll;
 }
 
 .diary_downer{
@@ -331,6 +338,18 @@ nav a
   width: 470px;
   height: 225px;
   margin: 0px;
+  background-color:#FFF69F;
+  overflow: scroll;
+}
+
+.events_middle>ul{
+  font-size: 24px;
+  line-height: 48px;
+  font-family: Consolas,sans-serif;
+}
+.events_middle>ul>li>a{
+  text-decoration: none;
+  color:brown;
 }
 
 .events_downer{
@@ -351,10 +370,9 @@ nav a
   text-decoration: none;
   color: black;
 }
-
  /*footer*/
 footer{
-   width:100%;
+    width:100%;
     height:82px;
     background-color: yellow;
 }
