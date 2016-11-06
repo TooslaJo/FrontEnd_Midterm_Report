@@ -77,9 +77,10 @@ nav div p{
 }
 
 nav div:hover{
-  text-shadow: gray 1px 1px 1px;
-  background-color:#FF7256;
-  transition: all 0.2s ease;
+   border:outset 2px yellow;
+   text-shadow: gray 1px 1px 1px;
+   background-color:yellow;
+   transition: all 0.2s ease;
 }
 
 nav a
@@ -101,6 +102,7 @@ nav a
     border:outset 2px yellow;
     text-shadow: gray 1px 1px 1px;
     background-color:yellow;
+    transition: all 0.2s ease;
 }
 
  /*article*/
