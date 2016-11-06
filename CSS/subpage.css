@@ -109,7 +109,16 @@ article{
 
 /*footer*/
 footer{
-    width:1184px;
-    height:150px;
-    border:dashed 2px black;
+   width:100%;
+    height:82px;
+    background-color: yellow;
+}
+
+footer>p{
+  text-align:center;
+  margin: 0px;
+  padding-top:33px;
+  padding-bottom:33px;
+  font-size: 16px;
+  font-family:Consolas,sans-serif;
 }
