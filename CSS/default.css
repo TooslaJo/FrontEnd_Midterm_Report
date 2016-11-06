@@ -23,6 +23,8 @@ body {
   margin-right:auto;
 }
 
+/*主頁超連結的有導覽列nav&download....等(下面主視覺是要刪除的不要理)*/
+a{ text-decoration: none; }
 
  /*header*/
 .title{
