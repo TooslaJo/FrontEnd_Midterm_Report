@@ -65,9 +65,8 @@ nav div p{
 }
 
 nav div:hover{
-  border:outset 3px yellow;
   text-shadow: gray 1px 1px 1px;
-  background-color:yellow;
+  background-color:#FF7256;
   transition: all 0.2s ease;
 }
 
