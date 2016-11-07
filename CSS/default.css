@@ -1,10 +1,3 @@
-/*RWD*/
-@media screen and(max-width:768px) and(orientation:portrait){
-  nav div{
-    width:33%;
-  }
-}
-
 /*頁面總寬：1280px 將寬度1280切割成12欄 欄寬：66px 間隙：36px 留白：46px*/
 /*模擬玉軒的Grid System*/
 body {
@@ -385,3 +378,40 @@ footer>p{
   font-size: 16px;
   font-family:Consolas,sans-serif;
 }
+
+/*RWD*/
+@media screen and(max-width:768px){
+    .title{
+      width:100%;
+      text-align: center;
+    }
+    nav div{
+      width:30%;
+      text-align: center;
+    }
+    .latest_qa{
+      width:100%;
+    }
+    .latest_v{
+      width:auto;
+      height: auto;
+    }
+    .news{
+      float:left;
+      width:35%;
+    }
+    .download{
+      float: right;
+      width:35%;
+      height: 370px;
+    }
+    .diary{
+      float: left;
+      width:40%;
+    }
+    .events{
+      float: right;
+      width:40%;
+    }
+  }
+
