@@ -137,6 +137,86 @@ nav div p{
     font-family: OCR A Std,Consolas,sans-serif;
 }
 
+/*頁面總寬：1280px 將寬度1280切割成12欄 欄寬：66px 間隙：36px 留白：46px*/
+/*模擬良聖的Grid System*/
+body {
+  max-width:1280px;
+  padding:0px 46px 0px 46px;
+  margin-left:auto;
+  margin-right:auto;
+  background-image:url(../images/bg4.jpg);
+  background-size: cover;
+  background-color:#FFF68F;
+}
+#isolation{
+  width:1188px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/*分頁只有導覽列nav(除了favicon)會有超連結*/
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+/*header*/
+header{
+  width:1188px;
+  height:169px;
+  border-bottom:solid 2px black;
+}
+.title{
+    float:left;
+    width:371px;
+    height:115px;
+    margin:36px 510px 20px 0px;
+    /*border:solid 2px yellow;*/  /*用不到*/
+    border-radius:4px;
+}
+.icon{
+      width:48px;
+      height:48px;
+      float:right;
+      margin:110px 0px 0px 14px;            /*margin-top不確定多少*/
+      /*border:solid 1px black;*/           /*用不到*/
+      border-radius:3px;
+}
+
+/*nav*/
+nav{
+  width: 264px;
+  float: left;
+  padding: 36px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  border-right: dotted 4px gray;
+}
+#favicon{
+    width: 192px;
+    height: 192px;
+    display: block;
+    margin: 10px 72px 30px 36px;
+    border: solid 2px black;
+    background-color: white;
+}
+nav div{
+    width:264px;
+    display: block;
+    margin: 5px 36px 10px 0px;
+    border: solid 3px black;
+    border-radius:4px;
+    background-color:yellow;
+}
+nav div p{
+    text-align: center;
+    margin: 0px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 30px;
+    font-family: OCR A Std,Consolas,sans-serif;
+}
+
 nav div:hover{
   text-shadow: gray 1px 1px 1px;
   background-color:#FF7256;
