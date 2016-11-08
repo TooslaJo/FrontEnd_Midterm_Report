@@ -276,11 +276,12 @@ nav a
 }
 
 .diary_middle{
+  text-indent: 32px;
   width: 470px;
   height: 225px;
   margin: 0px;
   background-color:#FFF69F;
-  /*overflow: scroll*/;
+  overflow: scroll;
 }
 
 .diary_downer{
