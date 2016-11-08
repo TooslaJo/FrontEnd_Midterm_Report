@@ -1,5 +1,4 @@
 
-
 /*頁面總寬：1280px 將寬度1280切割成12欄 欄寬：66px 間隙：36px 留白：46px*/
 /*模擬玉軒的Grid System*/
 body {
@@ -281,7 +280,7 @@ nav a
   height: 225px;
   margin: 0px;
   background-color:#FFF69F;
-  overflow: scroll;
+  /*overflow: scroll*/;
 }
 
 .diary_downer{
@@ -338,9 +337,11 @@ nav a
 }
 
 .events_middle>ul{
+  margin: 0px;
   font-size: 24px;
   line-height: 48px;
   font-family: Consolas,sans-serif;
+
 }
 .events_middle>ul>li>a{
   text-decoration: none;
