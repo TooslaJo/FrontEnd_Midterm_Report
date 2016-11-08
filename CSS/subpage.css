@@ -60,7 +60,7 @@ nav{
     display: block;
     margin: 10px 72px 30px 36px;
     border: solid 2px black;
-    background-color: white;
+    background-color: #FFF68F;
 }
 nav div{
     width:264px;
@@ -101,11 +101,12 @@ article{
   font-size: 36px;
   font-family: OCR A Std,Consolas,sans-serif;
   text-align:center;
-  text-shadow: gray 1px 1px 1px;
+
 }
+
 .content{
   max-width: 812px;
-  height:1200px;
+  height:848px;
   margin:30px 0px 30px 0px;
   border:solid 2px black;
   border-radius:2px;
@@ -123,6 +124,7 @@ article{
 
 /*footer*/
 footer{
+  clear: both;
    width:100%;
     height:82px;
     background-color: yellow;
