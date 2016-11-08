@@ -14,6 +14,22 @@ body {
 
 
 
+
+/*頁面總寬：1280px 將寬度1280切割成12欄 欄寬：66px 間隙：36px 留白：46px*/
+/*模擬玉軒的Grid System*/
+body {
+  max-width:1280px;
+  padding:0px 46px 0px 46px;
+  margin-left:auto;
+  margin-right:auto;
+  background-image:url(../images/bg4.jpg);
+  background-size: cover;
+  background-color:#FFF68F;
+}
+
+
+
+
 #isolation{
   max-width:1188px;
   margin-left:auto;
@@ -194,7 +210,7 @@ nav a
   height: 193px;
   margin: 0px;
   background-color:#FFF69F;
-  overflow: scroll;
+  overflow: auto;
 }
 .news_middle>ul{
   font-size:24px;
@@ -281,7 +297,12 @@ nav a
   height: 225px;
   margin: 0px;
   background-color:#FFF69F;
-  overflow: scroll;
+  overflow: auto;
+}
+
+.diary_date{
+  text-indent: 10px;
+  font-family: OCR A Std,Consolas,sans-serif;
 }
 
 .diary_downer{
@@ -334,7 +355,7 @@ nav a
   height: 225px;
   margin: 0px;
   background-color:#FFF69F;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .events_middle>ul{
@@ -383,7 +404,7 @@ footer>p{
   font-family:Consolas,sans-serif;
 }
 /*RWD*/
-  @media screen and(max-width:768px){
+@media screen and (max-width:768px){
      .title{
       width:100%;
       text-align: center;
@@ -416,3 +437,4 @@ footer>p{
        float: right;
        width:40%;
      }
+   }
