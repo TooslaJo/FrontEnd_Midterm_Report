@@ -406,36 +406,264 @@ footer>p{
 }
 /*RWD*/
 @media screen and (max-width:768px){
+  body {
+    max-width:768px;
+  }
+  #isolation{
+    max-width:676px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
      .title{
-      width:100%;
-      text-align: center;
+      width:auto;
+      margin:36px 0px 20px 0px;
+     }
+     .icon{
+         width:48px;
+         height:48px;
+         float:right;
+         margin:110px 0px 0px 14px;
+         border-radius:3px;
+     }
+
+     nav{
+         margin-bottom:20px;
+         border-top:solid 2px black;
+         border-bottom:solid 2px black;
+         padding:26px 0px 26px 0px;
      }
      nav div{
-       width: 30%;
+         max-height: 70px;
+         max-width: 200px;
+         width:28%;
+         display: inline-block;
+         margin: 5px 18px 5px 0px;
+     }
+     #margin_r{
+         max-height: 70px;
+         max-width: 200px;
+         width:28%;
+         display: inline-block;
+         margin: 5px 0px 5px 0px;
+         border: solid 2px black;
+         border-radius:2px;
+     }
+     nav div p{
+         text-align:center;
+         margin: 0px;
+         padding-top:16px;
+         padding-bottom:16px;
+         font-size: 28px;
+         font-family: OCR A Std,Consolas,sans-serif;
+     }
+
+     .latest_qa{
+         width:88%;
+         height:212px;
+         margin:0px 36px 30px 36px;
+         border:solid 2px black;
+         border-radius:2px;
+         overflow:auto;
+     }
+
+     .latest_v{
+         width:85%;
+         height:576px;
+         float:left;
+         margin:0px 30px 30px 50px;
+         border:solid 2px black;
+         border-radius:2px;
+     }
+     .latest_video_upper{
+       width: 100%;
+       height: 86px;
+       margin: 0px;
+       background-color: #F7AF9D;
+     }
+     .latest_video_upper>p{
+       text-align: center;
+       padding-left: 0px;
+       padding-right: 0px;
+       font-size: 30px;
+       font-family: OCR A Std,Consolas,sans-serif;
+     }
+     .latest_v>iframe{
+       width: 100%;
+     }
+     .latest_video_downer{
+       width: 100%;
+     }
+
+     .news{
+       width:69%;
+       height:370px;
+       float:left;
+       margin:0px 36px 30px 102px;
+       border:solid 2px black;
+       border-radius:2px;
+     }
+     .news_upper{
+       width: 100%;
+       height: 86px;
+       margin: 0px;
+       background-color: #7FB069;
+     }
+     .news_upper>p{
+       padding-left: 66px;
+       padding-top: 30px;
+       padding-right: 0px;
+       font-size: 30px;
+       font-family: OCR A Std,Consolas,sans-serif;
+     }
+     .news_middle{
+       width: 100%;
+       height: 193px;
+       margin: 0px;
+       background-color:#FFF69F;
+       overflow: auto;
+     }
+     .news_downer{
+       width: 100%;
+       height: 91px;
+       margin: 0px;
+       margin-top:0px;
+       background-color: #7FB069;
+     }
+
+     .download{
+       width: 69%;
+       height:185px;
+       margin:0px 36px 30px 102px;
+       float: left;
+       border:solid 2px black;
+       border-radius:2px;
+       background-color: #B0D0D3;
+     }
+     .download>p{
+       margin: 0px;
+       font-size: 50px;
+       font-family: OCR A Std,Consolas,sans-serif;
+       text-decoration: none;
+       color: black;
+     }
+
+     .diary{
+       width:69%;
+       height:402px;
+       float:left;
+       margin:0px 36px 30px 102px;
+       border:solid 2px black;
+       border-radius:2px;
+     }
+     .diary_upper{
+       width: 100%;
+       height: 86px;
+       margin: 0px;
+       background-color: #DD6E42;
+     }
+     .diary_upper>p{
+       margin: 0px;
+       padding-left: 66px;
+       padding-top: 30px;
+       padding-right: 306px;
+       font-size: 30px;
+       font-family: OCR A Std,Consolas,sans-serif;
        text-align: center;
      }
-     .latest_qa{
-       width:100%;
+     .diary_middle{
+       text-indent: 32px;
+       width: 100%;
+       height: 225px;
+       margin: 0px;
+       background-color:#FFF69F;
+       overflow: auto;
      }
-     .latest_v{
-       width:auto;
-       height: auto;
+     .diary_middle>p{
+       font-size: 24px;
+       font-family: Arial black,sans-serif;
      }
-     .news{
-       float:left;
-      width:35%;
+     .diary_date{
+       text-indent: 10px;
+       font-family: OCR A Std,Consolas,sans-serif;
      }
-     .download{
+     .diary_downer{
+       width: 100%;
+       height: 91px;
+       margin: 0px;
+       margin-top:0px;
+       background-color: #DD6E42;
+     }
+     .diary_downer>a>p{
+       margin: 0px;
        float: right;
-       width:35%;
-       height: 370px;
+       margin-right: 38px;
+       margin-top: 38px;
+       font-size: 20px;
+       font-family: OCR A Std,Consolas,sans-serif;
+       text-decoration: none;
+       color: black;
      }
-     .diary{
-       float: left;
-       width:40%;
-     }
+
      .events{
-       float: right;
-       width:40%;
+         width:69%;
+         height:402px;
+         float:left;
+         margin-bottom:30px;
+         margin:0px 36px 30px 102px;
+         border:solid 2px black;
+         border-radius:2px;
      }
+     .events_upper{
+       width: 100%;
+       height: 86px;
+       margin: 0px;
+       background-color: #8F857D;
+     }
+     .events_upper>p{
+       margin: 0px;
+       padding-left: 66px;
+       padding-top: 30px;
+       padding-right: 306px;
+       font-size: 30px;
+       font-family: OCR A Std,Consolas,sans-serif;
+       text-align: center;
+     }
+     .events_middle{
+       width: 100%;
+       height: 225px;
+       margin: 0px;
+       background-color:#FFF69F;
+       overflow: auto;
+     }
+     .events_middle>ul{
+       margin: 0px;
+       font-size: 24px;
+       line-height: 48px;
+       font-family: Consolas,sans-serif;
+
+     }
+     .events_middle>ul>li>a{
+       text-decoration: none;
+       color:brown;
+     }
+     .events_downer{
+       width: 100%;
+       height: 91px;
+       margin: 0px;
+       margin-top:0px;
+       background-color: #8F857D;
+     }
+     .events_downer>a>p{
+       margin: 0px;
+       float: right;
+       margin-right: 38px;
+       margin-top: 38px;
+       font-size: 20px;
+       font-family: OCR A Std,Consolas,sans-serif;
+       text-decoration: none;
+       color: black;
+     }
+
    }
+
