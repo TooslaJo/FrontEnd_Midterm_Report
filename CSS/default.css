@@ -10,26 +10,6 @@ body {
   background-size: cover;
   background-color:#FFF68F;
 }
-
-
-
-
-
-/*頁面總寬：1280px 將寬度1280切割成12欄 欄寬：66px 間隙：36px 留白：46px*/
-/*模擬玉軒的Grid System*/
-body {
-  max-width:1280px;
-  padding:0px 46px 0px 46px;
-  margin-left:auto;
-  margin-right:auto;
-  background-image:url(../images/bg4.jpg);
-  background-size: cover;
-  background-color:#FFF68F;
-}
-
-
-
-
 #isolation{
   max-width:1188px;
   margin-left:auto;
@@ -43,21 +23,14 @@ a{ text-decoration: none; }
     float:left;
     width:371px;
     height:115px;
-    margin:36px 510px 20px 0px;
-    /*border:solid 2px yellow;*/  /*用不到*/
+    margin:36px 0px 20px 0px;
     border-radius:4px;
 }
-
-h1{
-    text-align:center;
-}
-
 .icon{
     width:48px;
     height:48px;
     float:right;
-    margin:110px 0px 0px 14px;            /*margin-top不確定多少*/
-    /*border:solid 1px black;*/           /*用不到*/
+    margin:110px 0px 0px 14px;
     border-radius:3px;
 }
 
@@ -68,7 +41,6 @@ nav{
     border-bottom:solid 2px black;
     padding:26px 0px 26px 0px;
 }
-
 nav div{
     max-height: 70px;
     max-width: 168px;
@@ -79,7 +51,6 @@ nav div{
     border-radius:2px;
     background-color:yellow;
 }
-
 #margin_r{
     max-height: 70px;
     max-width: 168px;
@@ -89,7 +60,6 @@ nav div{
     border: solid 2px black;
     border-radius:2px;
 }
-
 nav div p{
     text-align:center;
     margin: 0px;
@@ -98,14 +68,12 @@ nav div p{
     font-size: 28px;
     font-family: OCR A Std,Consolas,sans-serif;
 }
-
 nav div:hover{
   text-shadow: gray 1px 1px 1px;
   background-color:#FF7256;
   transition: all 0.2s ease;
 }
-nav a
-{
+nav a{
   text-decoration: none;
   color: black;
 }
@@ -119,23 +87,6 @@ nav a
     border-radius:2px;
 }
 
-/*.latest_qa_li{
-    width:260px;
-    height:66px;
-    position:absolute;
-    border-top:0px;
-    border-left:0px;
-    border-style: solid;
-    border-color: black;
-    border-radius:2px;
-}
-
-.qa_font{
-  text-align:center;
-  font-size: 20px;
-  font-family: Consolas,sans-serif;
-}*/
-
 .latest_v{
     width:576px;
     height:576px;
@@ -144,14 +95,12 @@ nav a
     border:solid 2px black;
     border-radius:2px;
 }
-
 .latest_video_upper{
   width: 576px;
   height: 86px;
   margin: 0px;
   background-color: #F7AF9D;
 }
-
 .latest_video_upper>p{
   margin: 0px;
   padding-left: 66px;
@@ -160,7 +109,6 @@ nav a
   font-size: 30px;
   font-family: OCR A Std,Consolas,sans-serif;
 }
-
 .latest_video_downer{
   width: 576px;
   height: 91px;
@@ -168,7 +116,6 @@ nav a
   margin-top:-4px;
   background-color: #F7AF9D;
 }
-
 .latest_video_downer>a>p{
   margin: 0px;
   float: right;
@@ -179,7 +126,6 @@ nav a
   text-decoration: none;
   color: black;
 }
-
 .news{
     width:370px;
     height:370px;
@@ -188,14 +134,12 @@ nav a
     border:solid 2px black;
     border-radius:2px;
 }
-
 .news_upper{
   width: 370px;
   height: 86px;
   margin: 0px;
   background-color: #7FB069;
 }
-
 .news_upper>p{
   margin: 0px;
   padding-left: 66px;
@@ -204,7 +148,6 @@ nav a
   font-size: 30px;
   font-family: OCR A Std,Consolas,sans-serif;
 }
-
 .news_middle{
   width: 370px;
   height: 193px;
@@ -221,7 +164,6 @@ nav a
   text-decoration: none;
   color: brown;
 }
-
 .news_downer{
   width: 370px;
   height: 91px;
@@ -229,7 +171,6 @@ nav a
   margin-top:0px;
   background-color: #7FB069;
 }
-
 .news_downer>a>p{
   margin: 0px;
   float: right;
@@ -240,7 +181,6 @@ nav a
   text-decoration: none;
   color: black;
 }
-
 .download{
   width:370px;
   height:182px;
@@ -250,7 +190,6 @@ nav a
   border-radius:2px;
   background-color: #B0D0D3;
 }
-
 .download>p{
   text-align:center;
   margin: 0px;
@@ -261,11 +200,9 @@ nav a
   text-decoration: none;
   color: black;
 }
-
 .clear{
     clear:both;
 }
-
 .diary{
   width:470px;
   height:402px;
@@ -274,14 +211,12 @@ nav a
   border:solid 2px black;
   border-radius:2px;
 }
-
 .diary_upper{
   width: 470px;
   height: 86px;
   margin: 0px;
   background-color: #DD6E42;
 }
-
 .diary_upper>p{
   margin: 0px;
   padding-left: 66px;
@@ -290,22 +225,18 @@ nav a
   font-size: 30px;
   font-family: OCR A Std,Consolas,sans-serif;
 }
-
 .diary_middle{
   text-indent: 32px;
   width: 470px;
   height: 225px;
   margin: 0px;
   background-color:#FFF69F;
-  font-family: Arial black,sans-serif;
   overflow: auto;
 }
-
 .diary_date{
   text-indent: 10px;
   font-family: OCR A Std,Consolas,sans-serif;
 }
-
 .diary_downer{
   width: 470px;
   height: 91px;
@@ -313,7 +244,6 @@ nav a
   margin-top:0px;
   background-color: #DD6E42;
 }
-
 .diary_downer>a>p{
   margin: 0px;
   float: right;
@@ -324,7 +254,6 @@ nav a
   text-decoration: none;
   color: black;
 }
-
 .events{
     width:470px;
     height:402px;
@@ -334,14 +263,12 @@ nav a
     border:solid 2px black;
     border-radius:2px;
 }
-
 .events_upper{
   width: 470px;
   height: 86px;
   margin: 0px;
   background-color: #8F857D;
 }
-
 .events_upper>p{
   margin: 0px;
   padding-left: 66px;
@@ -350,7 +277,6 @@ nav a
   font-size: 30px;
   font-family: OCR A Std,Consolas,sans-serif;
 }
-
 .events_middle{
   width: 470px;
   height: 225px;
@@ -358,7 +284,6 @@ nav a
   background-color:#FFF69F;
   overflow: auto;
 }
-
 .events_middle>ul{
   margin: 0px;
   font-size: 24px;
@@ -370,7 +295,6 @@ nav a
   text-decoration: none;
   color:brown;
 }
-
 .events_downer{
   width: 470px;
   height: 91px;
@@ -378,7 +302,6 @@ nav a
   margin-top:0px;
   background-color: #8F857D;
 }
-
 .events_downer>a>p{
   margin: 0px;
   float: right;
@@ -389,6 +312,7 @@ nav a
   text-decoration: none;
   color: black;
 }
+
  /*footer*/
 footer{
     width:100%;
@@ -404,6 +328,8 @@ footer>p{
   font-size: 16px;
   font-family:Consolas,sans-serif;
 }
+
+
 /*RWD*/
 @media screen and (max-width:768px){
   body {
@@ -411,19 +337,20 @@ footer>p{
   }
   #isolation{
     max-width:676px;
+    width: 88%;
     margin-left:auto;
     margin-right:auto;
   }
 
      .title{
-      width:auto;
-      margin:36px 0px 20px 0px;
+      width:64%;
+      margin:36px 18% 20px 18%;
      }
      .icon{
          width:48px;
          height:48px;
          float:right;
-         margin:110px 0px 0px 14px;
+         margin:0px 10px 0px 5px;
          border-radius:3px;
      }
 
@@ -436,14 +363,14 @@ footer>p{
      nav div{
          max-height: 70px;
          max-width: 200px;
-         width:28%;
+         width:26%;
          display: inline-block;
-         margin: 5px 18px 5px 0px;
+         margin: 5px 10px 5px 0px;
      }
      #margin_r{
          max-height: 70px;
          max-width: 200px;
-         width:28%;
+         width:26%;
          display: inline-block;
          margin: 5px 0px 5px 0px;
          border: solid 2px black;
@@ -454,24 +381,24 @@ footer>p{
          margin: 0px;
          padding-top:16px;
          padding-bottom:16px;
-         font-size: 28px;
+         font-size: 110%;
          font-family: OCR A Std,Consolas,sans-serif;
      }
 
      .latest_qa{
-         width:88%;
-         height:212px;
-         margin:0px 36px 30px 36px;
+         width:90%;
+         height:229px;
+         margin:0px 5% 30px 5%;
          border:solid 2px black;
          border-radius:2px;
          overflow:auto;
      }
 
      .latest_v{
-         width:85%;
+         width:86%;
          height:576px;
          float:left;
-         margin:0px 30px 30px 50px;
+         margin:0px 7% 30px 7%;
          border:solid 2px black;
          border-radius:2px;
      }
@@ -490,16 +417,17 @@ footer>p{
      }
      .latest_v>iframe{
        width: 100%;
+       height: 70%;
      }
      .latest_video_downer{
        width: 100%;
      }
 
      .news{
-       width:69%;
+       width:68%;
        height:370px;
        float:left;
-       margin:0px 36px 30px 102px;
+       margin:0px 16% 30px 16%;
        border:solid 2px black;
        border-radius:2px;
      }
@@ -510,7 +438,7 @@ footer>p{
        background-color: #7FB069;
      }
      .news_upper>p{
-       padding-left: 66px;
+       padding-left: 9%;
        padding-top: 30px;
        padding-right: 0px;
        font-size: 30px;
@@ -532,27 +460,27 @@ footer>p{
      }
 
      .download{
-       width: 69%;
-       height:185px;
-       margin:0px 36px 30px 102px;
-       float: left;
+       width:68%;
+       height:180px;
+       float:left;
+       margin:0px 16% 30px 16%;
        border:solid 2px black;
        border-radius:2px;
        background-color: #B0D0D3;
      }
      .download>p{
        margin: 0px;
-       font-size: 50px;
+       font-size: 40px;
        font-family: OCR A Std,Consolas,sans-serif;
        text-decoration: none;
        color: black;
      }
 
      .diary{
-       width:69%;
+       width:68%;
        height:402px;
        float:left;
-       margin:0px 36px 30px 102px;
+       margin:0px 16% 30px 16%;
        border:solid 2px black;
        border-radius:2px;
      }
@@ -606,11 +534,10 @@ footer>p{
      }
 
      .events{
-         width:69%;
+         width:68%;
          height:402px;
          float:left;
-         margin-bottom:30px;
-         margin:0px 36px 30px 102px;
+         margin:0px 16% 30px 16%;
          border:solid 2px black;
          border-radius:2px;
      }
@@ -666,4 +593,3 @@ footer>p{
      }
 
    }
-
